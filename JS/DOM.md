@@ -24,4 +24,8 @@
 
 - 用class修改style
 - `classList`修改class
-
+- 插入元素方法`before` `prepend` `append` `after` `replaceWith`各自插入位置不同
+- 旧的方法`parentElem.`
+- 全局变量
+- 获取元素大小，位置信息![image-20220913161018323](C:\Users\朱敏\AppData\Roaming\Typora\typora-user-images\image-20220913161018323.png)
+- 获取window的大小，位置信息
