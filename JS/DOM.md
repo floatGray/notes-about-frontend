@@ -29,3 +29,6 @@
 - 全局变量
 - 获取元素大小，位置信息![image-20220913161018323](C:\Users\朱敏\AppData\Roaming\Typora\typora-user-images\image-20220913161018323.png)
 - 获取window的大小，位置信息
+- 两个案例
+- 动态显示时间
+- 倒计时

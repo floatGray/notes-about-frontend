@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul class="list"></ul>
+  </body>
+  <script>
+    //通过prompt接受输入，创建动态列表
+    var listEl = document.querySelector('.list');
+
+    var isFlag = true;
+
+    while (isFlag) {
+      var message = prompt('输入信息：');
+      if (!message) {
+        isFlag = false;
+        return;
+      }
+      var liEl = document.createElement('li');
+      liEl.textContent = message;
+      listEl.append(liEl);
+    }
+  </script>
+</html>

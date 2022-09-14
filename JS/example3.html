@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .countdown {
+      color: red;
+      font-size: 30px;
+    }
+
+    .countdown .time {
+      background-color: red;
+      color: white;
+      padding: 5px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+  </style>
+  <body>
+    <div class="countdown">
+      <span class="time hour">03</span>
+      <span class="split">:</span>
+      <span class="time minute">03</span>
+      <span class="split">:</span>
+      <span class="time second">03</span>
+    </div>
+    <script>
+      var hourEl = document.querySelector('.hour');
+      var minuteEl = document.querySelector('.minute');
+      var secondEl = document.querySelector('.second');
+      var nowtime = new Date()
+      
+
+      hourEl.textContent = 12;
+      minuteEl.textContent = 20;
+      secondEl.textContent = 33;
+    </script>
+  </body>
+</html>
