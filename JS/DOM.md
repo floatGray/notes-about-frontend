@@ -59,3 +59,13 @@
 - eventTarget的常见方法 remove dispatch
 
 - 事件委托
+
+- 鼠标事件
+
+- onmouseover\onmouseout
+
+- onmouseenter\onmouseleave
+
+- 键盘事件
+
+- 
